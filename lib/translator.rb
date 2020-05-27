@@ -16,11 +16,13 @@ def load_library(fp="lib/emoticons.yml")
    yml_hash
 end
 
-def get_japanese_emoticon
+def get_japanese_emoticon(fp="lib/emoticons.yml", eng)
   # code goes here
 end
 
-def get_english_meaning
+def get_english_meaning(fp="lib/emoticons.yml", jap)
+  
+  
   # code goes here
 end
 

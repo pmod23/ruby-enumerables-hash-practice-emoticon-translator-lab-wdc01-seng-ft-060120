@@ -1,4 +1,4 @@
-require 'spec_helper.rb'
+
 
 describe "#load_library" do
 let(:emoticons) { ['angel', 'angry', 'bored', 'confused', 'embarrassed', 'fish', 'glasses', 'grinning', 'happy', 'kiss', 'sad', 'surprised', 'wink'] }

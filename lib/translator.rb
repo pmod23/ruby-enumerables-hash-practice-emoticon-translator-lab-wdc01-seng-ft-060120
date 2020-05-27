@@ -1,7 +1,7 @@
 require 'yaml'
 
 
-def load_library(fp*)
+def load_library(fp="lib/emoticons.yml")
    yml_hash = YAML.load_file(fp.to_s)
    
    

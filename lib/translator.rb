@@ -22,7 +22,16 @@ end
 
 def get_english_meaning(fp="lib/emoticons.yml", jap)
   
-  
+  hash = load_library(fp)
+  hash.each do |key, value|
+    value.each do |k, v| 
+      if (v==jap)
+        
+        return key
+      end
+    end
+    
+  end
   # code goes here
 end
 

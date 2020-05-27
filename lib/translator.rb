@@ -10,7 +10,7 @@ def load_library(fp="lib/emoticons.yml")
      new_hash = {}
      new_hash[:english] = value[0]
      new_hash[:japanese] = value[1]
-     value = new_hash
+     yml_hash[key] = new_hash
      
    end
    yml_hash

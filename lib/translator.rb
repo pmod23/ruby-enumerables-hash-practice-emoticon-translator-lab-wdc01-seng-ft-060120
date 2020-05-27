@@ -33,6 +33,7 @@ def get_english_meaning(fp="lib/emoticons.yml", jap)
     
   end
   # code goes here
+  "Sorry, that emoticon was not found"
 end
 
 load_library()
